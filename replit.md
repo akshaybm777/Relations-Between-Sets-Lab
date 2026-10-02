@@ -1,6 +1,6 @@
-# [Project name]
+# Set Relations Lab
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+An interactive Discrete Mathematical Structures lesson on relations between distinct sets and their connection to relational databases.
 
 ## Run & Operate
 
@@ -22,15 +22,19 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/set-relations-lab/` — student-facing lesson and interactive relation builder.
+- `artifacts/set-relations-lab/src/App.tsx` — lesson content and local interaction state.
+- `artifacts/set-relations-lab/src/index.css` — app theme and responsive presentation.
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- Pair selection is local state; this lesson does not require accounts, a database, or API calls.
+- The relation builder models a subset of `A × B` for distinct sets and tests whether it is a function; it does not apply endorelation-only properties to cross-set relations.
+- The SQL example is instructional: a composite key on the junction-table pair preserves the unique-pair semantics of a mathematical relation.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+Students learn Cartesian products, ordered pairs, relations, domain and range through definitions, a worked example, a live pair-building activity, a relational SQL example, and checkable exercises.
 
 ## User preferences
 

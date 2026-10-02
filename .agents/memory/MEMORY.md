@@ -1,0 +1,1 @@
+- [DMS assignment requirements](dms-assignment.md) — preserve the instructor’s five required lesson elements and keep the lesson comprehensive within its assigned syllabus slice.
